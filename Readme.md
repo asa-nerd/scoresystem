@@ -7,11 +7,11 @@ the artistic research project [GAPPP](http://gappp.net/) (Gamified Audiovisual P
 A Node.js server is established. It listenes OSC messages (e.g. from SuperCollider) and forwards it as Websocket messages to clients.<br>
 Clients connect to the server and get templates served with express. At the musical performance pitchesets, graphical notation and musical directives where displayed to the performers <br><br>
 
-<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg" width="300">
+<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg" width="400">
 __Figure.__ Basic technical setup of the scoring system.
 
 ### Host App
-![](https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/interface-2.png | width=300)
+<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/interface-2.png width="400">
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -19,7 +19,7 @@ alert(s);
 ```
 
 ### Performance Situation
-![](https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg | width=300)
+<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg width="400">
 
-![](https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg | width=300)
+<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg width="400">
  
