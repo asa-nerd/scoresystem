@@ -7,8 +7,9 @@ the artistic research project [GAPPP](http://gappp.net/) (Gamified Audiovisual P
 A Node.js server is established. It listenes OSC messages (e.g. from SuperCollider) and forwards it as Websocket messages to clients.<br>
 Clients connect to the server and get templates served with express. At the musical performance pitchesets, graphical notation and musical directives where displayed to the performers <br><br>
 
+![alt text](https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg "Screenshot")
 
-__Figure.__ Basic technical setup of Anna&Marie.
+__Figure.__ Basic technical setup of .
 
 ### Host App
 ![alt text](https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/interface-2.png "Screenshot")
