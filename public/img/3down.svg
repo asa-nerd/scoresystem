@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5.6" height="13.86" viewBox="0 0 5.6 13.86">
+  <title>Element 2</title>
+  <g id="b21d6490-71c8-4050-9562-8911542c857d" data-name="Ebene 2">
+    <g id="e248b0ad-7a47-4980-9677-aac9e311d7ff" data-name="Ebene 1">
+      <g>
+        <line x1="2.97" y1="9.31" x2="2.97" y2="11.76" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.7000000476837158px"/>
+        <g>
+          <polyline points="2.98 13.86 4.72 10.36 1.23 10.36 2.98 13.86"/>
+          <text transform="translate(0 9.31)" style="font-size: 11.199997901916504px;font-family: TimesNewRomanPSMT, Times New Roman">6</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

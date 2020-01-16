@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AM Scoring System</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <!--------------------------------------------------------------------------->
+    <div id="containertop">
+      <div id="title"><p><strong>Scoresystem </strong>Anna & Marie</p></div>
+      <div id="switchOn">
+        <label class="switch">
+          <input type="checkbox" id="checkboxOn" onclick="functionCheckboxOn()">
+          <span class="slider round"></span>
+        </label>
+        <p class="label">On</p>
+      </div>
+    </div>
+    <!--------------------------------------------------------------------------->
+    <div id="containermiddle">
+        <div><p id="serverid">0</p><p>Server IP</p></div>
+        <div><p id="serverport">0</p><p>Server Port</p></div>
+        <div><p id="oscport">0</p><p>OSC Port</p></div>
+        <div><p id="numberclients">0</p><p>Connected Clients</p></div>
+    </div>
+    <!--------------------------------------------------------------------------->
+    <div id="containerbottom">
+      <h1 id="title">Messages</h1>
+      <div id="switchListen">
+        <label class="switch">
+          <input type="checkbox" id="checkboxRecord" onclick="functionCheckboxRecord()">
+          <span class="slider round"></span>
+        </label>
+        <p class="label">Listen</p>
+      </div>
+      <div id="messagelistcontainer">
+        <form id="messagelist"></form>
+      </div>
+    </div> 
+    <!--------------------------------------------------------------------------->
+    <script defer type="text/javascript" src="render.js"></script>   
+  </body>
+  
+</html>

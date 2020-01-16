@@ -1,0 +1,22 @@
+{
+  "name": "am-app",
+  "version": "0.0.1",
+  "description": "Desktop GUI for AM Score-System",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Andreas Pirchner",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.9"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "jquery": "^3.4.1",
+    "node-osc": "^4.1.4",
+    "socket.io": "^2.3.0",
+    "ws": "^7.2.1"
+  }
+}
