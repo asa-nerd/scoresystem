@@ -1,16 +1,15 @@
-# Real-time Scoresystem for "Anna & Marie"
-Software to display pitchsets and notation symbols on a tablet. <br>
-First used at Donaueschinger Musiktage 2019 in the Concert Installation ›Anna&Marie‹ by Marko Ciciliani. It originates from
-the artistic research project [GAPPP](http://gappp.net/) (Gamified Audiovisual Performance and Performance Practice).
+# Real-time score system for "Anna & Marie"
+The score system is a software to distribute and display pitchsets and notation symbols over network. Informations are displayer for performers on a tablet. <br>
+It was first used at Donaueschinger Musiktage 2019 in the Concert Installation ›Anna&Marie‹ by Marko Ciciliani. It originates from the artistic research project [GAPPP](http://gappp.net/) (Gamified Audiovisual Performance and Performance Practice).
 
 ### Technology
 A Node.js server is established. It listenes OSC messages (e.g. from SuperCollider) and forwards it as Websocket messages to clients.<br>
 Clients connect to the server via browser and get templates served with express. At the musical performance pitchesets, graphical notation and musical directives where displayed to the performers <br><br>
 
 <img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg" width="60%"  style="margin-left:20%">
-__Figure.__ Basic technical setup of the scoring system.
+__Figure.__ Basic technical setup of the scoring system.<br><br>
 
-The basic design of the software comprises the following elements (see Figure):<br>
+The basic design of the software comprises the following elements (see Figure):<br><br>
 Sender (1): In case of Anna & Marie SuperCollider is used to send control messages. Alternatively any (musical) software that is capable of sending Open Sound Control (OSC) messages can be used.<br>
 Host (2): The host was coded using the node.js framework. It translates incoming OSC messages to websocket (WS) messages and sends them to the connected clients. It utilizes the node-osc package to receive and process
 OSC messages and the Sockets.io package to send websockets.<br>
