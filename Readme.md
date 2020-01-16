@@ -10,10 +10,10 @@ Clients connect to the server via browser and get templates served with express.
 <img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg" width="60%"  style="margin-left:20%">
 __Figure.__ Basic technical setup of the scoring system.
 
-The basic design of the software comprises the following elements (see Figure):
-Sender (1): In case of Anna & Marie SuperCollider is used to send control messages. Alternatively any (musical) software that is capable of sending Open Sound Control (OSC) messages [18] can be used.
-Host (2): The host was coded using the node.js framework. It translates incoming OSC messages to websocket (WS) messages and sends them to the connected clients. It utilizes the node-osc [19] package to receive and process
-OSC messages and the Sockets.io package to send websockets.
+The basic design of the software comprises the following elements (see Figure):<br>
+Sender (1): In case of Anna & Marie SuperCollider is used to send control messages. Alternatively any (musical) software that is capable of sending Open Sound Control (OSC) messages can be used.<br>
+Host (2): The host was coded using the node.js framework. It translates incoming OSC messages to websocket (WS) messages and sends them to the connected clients. It utilizes the node-osc package to receive and process
+OSC messages and the Sockets.io package to send websockets.<br>
 Display (3): Any device that is capable of running a web browser can be used as a client. In the case of Anna&Marie, two iPads have been used.
 
 ### Host App
