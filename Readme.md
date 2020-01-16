@@ -11,7 +11,7 @@ Clients connect to the server and get templates served with express. At the musi
 __Figure.__ Basic technical setup of the scoring system.
 
 ### Host App
-<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/interface-2.png width="400">
+<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/interface-2.png" width="400">
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -19,7 +19,7 @@ alert(s);
 ```
 
 ### Performance Situation
-<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg width="400">
+<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg" width="400">
 
-<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg width="400">
+<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg" width="400">
  
