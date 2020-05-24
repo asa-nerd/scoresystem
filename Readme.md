@@ -38,6 +38,11 @@ The host is designed as an app that is available for Linux, iOS, and Windows ope
 
 The GUI of the host application allows the configuration of the port number, shows the IP address used as the URL in the browsers of the client tablets, and offers settings to rename incoming OSC messages while translating them to WebSockets. A benefit is that it allows using the host not only to convert from OSC to WebSockets but also to translate incoming commands according to the demands of a project. A learn-function traces all incoming OSC messages and displays them in a list. This is believed to facilitate the process of configuration if a renaming of given the messages encodings becomes necessary. 
 
+
+
+### Display for the performers
+The display for the performers is shown in fullscreenmode on any web-browser. CSS styling creates a floating and centered GUI that is adaptive to different display sizes and resolutions. Vector graphics were programmed using the Snap.svg library  making the display independent of resolution and generative.
+
 ```javascript
 socket.onmessage = function(msg){
 	var messJSON = JSON.parse(msg.data);
@@ -53,10 +58,7 @@ socket.onmessage = function(msg){
 	}
 };
 ```
-Incoming WS messages are treated according to their message type.  
-
-### Display for the performers
-The display for the performers is shown in fullscreenmode on any web-browser. CSS styling creates a floating and centered GUI that is adaptive to different display sizes and resolutions. Vector graphics were programmed using the Snap.svg library  making the display independent of resolution and generative.
+Incoming WS messages are treated according to their message type. Their data is handed over to functions rendering the score elements for the performers. 
 
 <p align="center">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/Figure-10.png"><br />
@@ -64,10 +66,15 @@ The display for the performers is shown in fullscreenmode on any web-browser. CS
 </p>
 
 The score displays the following sections for playing instructions (see Figure 10):
+
 (1) Arrow symbols. These arrows function as instructions for how the musicians relate to each other in a chamber-musical sense. 
+
 (2) Dynamic symbols. 
+
 (3) Text field for playing instructions. 
+
 (4) Pitch sets for each of the two performers. The pitch sets consist of fragments of 6 different scales based on a microtonal scale. 
+
 (5) The transcription of the narration heard by the audience on the headphones.
 Each of the performers are addressed by a separate color.
 
