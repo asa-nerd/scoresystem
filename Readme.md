@@ -40,16 +40,13 @@ The display for the performers is shown in fullscreenmode on any web-browser. CS
 ### Performance Situation
 
 <p align="center">
-  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg"><br />
-  <i>Figure</i> Performance situation in the library at Donaueschinger Musiktage 2019.
-</p>
-<p align="center">
-  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg"><br />
-  <i>Figure</i> Projection of the virtual performance space, with the symbolic real-time score in the front.
-</p>
-
-<p align="center">
-  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg"><br />
-  <i>Figure</i> Technological setup.
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg">
+  <i>Figure</i> (1) Performance situation in the library at Donaueschinger Musiktage 2019. <br />
+  (2) Projection of the virtual performance space, with the symbolic real-time score in the front.<br />
+  (3) <br />
+  (4) Technological setup.<br />
 </p>
 
