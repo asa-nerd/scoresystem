@@ -40,17 +40,17 @@ The GUI of the host application allows the configuration of the port number, sho
 
 ```javascript
 socket.onmessage = function(msg){
-		var messJSON = JSON.parse(msg.data);
-		switch(messJSON.message){
-      case "/text":
-      //. 
-      case "/instruction":
-      //.
-      case "/playMod":
-      //.
-      case "/symbol":
-      //.
-     }
+	var messJSON = JSON.parse(msg.data);
+	switch(messJSON.message){
+		case "/text":
+		//. 
+		case "/instruction":
+		//.
+		case "/playMod":
+		//.
+		case "/symbol":
+		//.
+	}
 };
 ```
 Incoming WS messages are treated according to their message type.  
