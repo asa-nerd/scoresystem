@@ -28,14 +28,17 @@ Display (3): Any device that is capable of running a web browser can be used as 
 The Electron framework was used to develop the executable app and its GUI. It can be run either on the same computer that runs sound software, or on an independent machine.
 A learn-function records all OSC messages and displays them in a list. This is believed to facilitate the process of configuration, if a renaming of the messages is sought.
 
-<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/interface-2.png" width="80%"  style="margin-left:10%;">
+<p align="center">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/interface-2.png"><br />
+  <i>Figure</i> GUI of the host app.
+</p>
 
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 ### Score Display
-The display for the performers is shown in fullscreenmode on any web-browser. CSS styling creates a floating and centered GUI that is adaptive to different display sizes and resolutions. Vector graphics were programmed using the Snap.svg library [22] making the display independent of resolution and generative.
+The display for the performers is shown in fullscreenmode on any web-browser. CSS styling creates a floating and centered GUI that is adaptive to different display sizes and resolutions. Vector graphics were programmed using the Snap.svg library  making the display independent of resolution and generative.
 
 ### Performance Situation
 
