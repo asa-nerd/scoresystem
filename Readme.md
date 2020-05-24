@@ -38,7 +38,18 @@ alert(s);
 The display for the performers is shown in fullscreenmode on any web-browser. CSS styling creates a floating and centered GUI that is adaptive to different display sizes and resolutions. Vector graphics were programmed using the Snap.svg library [22] making the display independent of resolution and generative.
 
 ### Performance Situation
-<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg" width="80%" style="margin-left:10%;">
 
-<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg" width="80%"  style="margin-left:10%;">
- 
+<p align="center">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg"><br />
+  <i>Figure</i> Performance situation in the library at Donaueschinger Musiktage 2019.
+</p>
+<p align="center">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg"><br />
+  <i>Figure</i> Projection of the virtual performance space, with the symbolic real-time score in the front.
+</p>
+
+<p align="center">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg"><br />
+  <i>Figure</i> Technological setup.
+</p>
+
