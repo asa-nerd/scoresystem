@@ -16,7 +16,7 @@ The following section text provides an overview of the functionality of the scor
 Based on previous experiences, due to the increasing role of JavaScript in network systems, and for greater flexibility, it was decided to develop the scoring system to run in web-browsers. The design of the system includes the following three modules.
 
 <p align="center">
-  <img width="70%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg"><br />
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg"><br />
   <i>Figure</i> Basic technical setup of the scoring system.
 </p>
 
@@ -61,7 +61,7 @@ socket.onmessage = function(msg){
 Incoming WS messages are treated according to their message type. Their data is handed over to functions rendering the score elements for the performers. 
 
 <p align="center">
-  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/Figure-10.png"><br />
+  <img width="70%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/Figure-10.png"><br />
   <i>Figure</i> GUI the tablet app for the performers.
 </p>
 
