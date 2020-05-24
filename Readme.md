@@ -16,7 +16,7 @@ The following section text provides an overview of the functionality of the scor
 Based on previous experiences, due to the increasing role of JavaScript in network systems, and for greater flexibility, it was decided to develop the scoring system to run in web-browsers. The design of the system includes the following three modules.
 
 <p align="center">
-  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg"><br />
+  <img width="70%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg"><br />
   <i>Figure</i> Basic technical setup of the scoring system.
 </p>
 
