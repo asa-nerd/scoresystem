@@ -12,10 +12,8 @@ I published a paper about the technological background and some artistic implica
 
 ### Technology
 
-Based on previous experiences, due to the increasing role of JavaScript in network systems, and for greater flexibility, it was decided to develop the scoring system to run in web-browsers. The design of the system includes the following three modules (see Figure 8)
-
-A Node.js server is established. It listenes OSC messages (e.g. from SuperCollider) and forwards it as Websocket messages to clients.<br>
-Clients connect to the server via browser and get templates served with express. At the musical performance pitchesets, graphical notation and musical directives where displayed to the performers <br><br>
+The following section text provides an overview of the functionality of the score system. For further details please consult the provided code itself.
+Based on previous experiences, due to the increasing role of JavaScript in network systems, and for greater flexibility, it was decided to develop the scoring system to run in web-browsers. The design of the system includes the following three modules.
 
 <p align="center">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg"><br />
@@ -23,10 +21,11 @@ Clients connect to the server via browser and get templates served with express.
 </p>
 
 
+**Sender (1):** Ciciliani uses SuperCollider to send control messages to the system. Alternatively, any (musical) software that is capable of sending Open Sound Control (OSC) messages (see Wright&Freed, 1997) can be used to communicate with the score system.
 
-Sender (1): Ciciliani uses SuperCollider to send control messages to the system. Alternatively, any (musical) software that is capable of sending Open Sound Control (OSC) messages (see Wright&Freed, 1997) can be used to communicate with the score system.
-Host (2): The host is built on the node.js framework and translates incoming OSC messages to messages that can be transmitted via the WebSocket (WS) protocol. It then distributes these messages to clients connected via (wireless) network. The software uses the node-osc15 package to receive and process OSC messages and the Sockets.io16 package to send WebSockets.
-Display (3): Any device that is capable of running a web browser can be used as a client. In the case of the performances of Anna & Marie, these were two iPads.
+**Host (2):** The host is built on the node.js framework and translates incoming OSC messages to messages that can be transmitted via the WebSocket (WS) protocol. It then distributes these messages to clients connected via (wireless) network. The software uses the node-osc15 package to receive and process OSC messages and the Sockets.io16 package to send WebSockets.
+
+**Display (3):** Any device that is capable of running a web browser can be used as a client. In the case of the performances of Anna & Marie, these were two iPads.
 
 
 ### Desktop Host Application
