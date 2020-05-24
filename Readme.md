@@ -67,15 +67,12 @@ Incoming WS messages are treated according to their message type. Their data is 
 
 The score displays the following sections for playing instructions (see Figure 10):
 
-(1) Arrow symbols. These arrows function as instructions for how the musicians relate to each other in a chamber-musical sense. 
+1. **Arrow symbols.** These arrows function as instructions for how the musicians relate to each other in a chamber-musical sense. 
+2. **Dynamic symbols.** 
+3. **Text field for playing instructions.** 
+4. **Pitch sets** for each of the two performers. The pitch sets consist of fragments of 6 different scales based on a microtonal scale. 
+5. **The transcription** of the narration heard by the audience on the headphones.
 
-(2) Dynamic symbols. 
-
-(3) Text field for playing instructions. 
-
-(4) Pitch sets for each of the two performers. The pitch sets consist of fragments of 6 different scales based on a microtonal scale. 
-
-(5) The transcription of the narration heard by the audience on the headphones.
 Each of the performers are addressed by a separate color.
 
 
