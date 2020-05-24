@@ -9,7 +9,7 @@ A Node.js server is established. It listenes OSC messages (e.g. from SuperCollid
 Clients connect to the server via browser and get templates served with express. At the musical performance pitchesets, graphical notation and musical directives where displayed to the performers <br><br>
 
 <p align="center">
-  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg"><br />
   __Figure.__ Basic technical setup of the scoring system.<br><br>
 </p>
 
