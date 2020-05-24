@@ -2,6 +2,8 @@
 The score system is a software to distribute and display pitchsets and notation symbols over network. Informations are displayer for performers on a tablet. <br>
 It was first used at Donaueschinger Musiktage 2019 in the Concert Installation ›Anna&Marie‹ by Marko Ciciliani. It originates from the artistic research project [GAPPP](http://gappp.net/) (Gamified Audiovisual Performance and Performance Practice).
 
+I wrote a paper about the technological background and some artistic implications for the [TENOR 2020 conference](https://tenor2020.hfmt-hamburg.de/)
+
 ### Technology
 A Node.js server is established. It listenes OSC messages (e.g. from SuperCollider) and forwards it as Websocket messages to clients.<br>
 Clients connect to the server via browser and get templates served with express. At the musical performance pitchesets, graphical notation and musical directives where displayed to the performers <br><br>
