@@ -10,9 +10,10 @@ Clients connect to the server via browser and get templates served with express.
 
 <p align="center">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg">
+  __Figure.__ Basic technical setup of the scoring system.<br><br>
 </p>
 
-__Figure.__ Basic technical setup of the scoring system.<br><br>
+
 
 The basic design of the software comprises the following elements (see Figure):<br><br>
 Sender (1): In case of Anna & Marie SuperCollider is used to send control messages. Alternatively any (musical) software that is capable of sending Open Sound Control (OSC) messages can be used.<br>
