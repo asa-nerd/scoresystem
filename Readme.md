@@ -8,7 +8,10 @@ I wrote a paper about the technological background and some artistic implication
 A Node.js server is established. It listenes OSC messages (e.g. from SuperCollider) and forwards it as Websocket messages to clients.<br>
 Clients connect to the server via browser and get templates served with express. At the musical performance pitchesets, graphical notation and musical directives where displayed to the performers <br><br>
 
-<img src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg" width="20%"  style="margin-left:40%;">
+<p align="center">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg">
+</p>
+
 __Figure.__ Basic technical setup of the scoring system.<br><br>
 
 The basic design of the software comprises the following elements (see Figure):<br><br>
