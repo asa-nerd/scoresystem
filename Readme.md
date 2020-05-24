@@ -43,7 +43,7 @@ The display for the performers is shown in fullscreenmode on any web-browser. CS
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg">
-  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg"><br />
   <i>Figure</i> (1) Performance situation in the library at Donaueschinger Musiktage 2019. <br />
   (2) Projection of the virtual performance space, with the symbolic real-time score in the front.<br />
   (3) <br />
