@@ -64,7 +64,7 @@ Each of the performers are addressed by a separate color.
 <p align="center">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg">
-  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/IMG_9438.jpg">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-2.jpg"><br />
   <i>Figure</i> (1) Performance situation in the library at Donaueschinger Musiktage 2019. <br />
   (2) Projection of the virtual performance space, with the symbolic real-time score in the front.<br />
