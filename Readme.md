@@ -1,3 +1,9 @@
+<style>
+  .caption{
+    font-size: 4px;
+  }
+</style>
+
 # Real-time score system for "Anna & Marie"
 The score system is a software to distribute and display pitchsets and notation symbols over network. Informations are displayer for performers on a tablet. <br>
 It was first used at Donaueschinger Musiktage 2019 in the Concert Installation ›Anna&Marie‹ by Marko Ciciliani. It originates from the artistic research project [GAPPP](http://gappp.net/) (Gamified Audiovisual Performance and Performance Practice).
@@ -10,7 +16,7 @@ Clients connect to the server via browser and get templates served with express.
 
 <p align="center">
   <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/setup.jpg"><br />
-  __Figure.__ Basic technical setup of the scoring system.<br><br>
+  <p class="caption"><i>Figure</i> Basic technical setup of the scoring system.</p>
 </p>
 
 
