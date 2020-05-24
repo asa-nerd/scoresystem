@@ -1,6 +1,6 @@
 
 # Real-time score system for ___Anna & Marie___
-This is the repository of the real-time score-system developed for the composition and installation "Anna & Marie" by Marko Ciciliani. It was first performed at Donaueschinger Musiktage 2019. 
+This is the repository of the real-time score-system I developed for the composition and installation ___Anna & Marie___ by Marko Ciciliani. It was first performed at Donaueschinger Musiktage 2019. 
 
 The score system is a software to distribute and display pitchsets and notation symbols over network. Informations are displayer for performers on a tablet. <br>
 The work originates from the artistic research project [GAPPP](http://gappp.net/) (Gamified Audiovisual Performance and Performance Practice), carried out at the Institue of Electronic Music and Acoustics at the University of Music and Performing Arts in Graz.
