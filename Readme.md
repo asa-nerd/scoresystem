@@ -45,6 +45,11 @@ alert(s);
 ### Display for the performers
 The display for the performers is shown in fullscreenmode on any web-browser. CSS styling creates a floating and centered GUI that is adaptive to different display sizes and resolutions. Vector graphics were programmed using the Snap.svg library  making the display independent of resolution and generative.
 
+<p align="center">
+  <img width="40%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/02%20Screenshots/Figure-10.png"><br />
+  <i>Figure</i> GUI the tablet app for the performers.
+</p>
+
 The score displays the following sections for playing instructions (see Figure 10):
 (1) Arrow symbols. These arrows function as instructions for how the musicians relate to each other in a chamber-musical sense. 
 (2) Dynamic symbols. 
