@@ -39,9 +39,22 @@ The host is designed as an app that is available for Linux, iOS, and Windows ope
 The GUI of the host application allows the configuration of the port number, shows the IP address used as the URL in the browsers of the client tablets, and offers settings to rename incoming OSC messages while translating them to WebSockets. A benefit is that it allows using the host not only to convert from OSC to WebSockets but also to translate incoming commands according to the demands of a project. A learn-function traces all incoming OSC messages and displays them in a list. This is believed to facilitate the process of configuration if a renaming of given the messages encodings becomes necessary. 
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+socket.onmessage = function(msg){
+		var messJSON = JSON.parse(msg.data);
+		switch(messJSON.message){
+      case "/text":
+      //. 
+      case "/instruction":
+      //.
+      case "/playMod":
+      //.
+      case "/symbol":
+      //.
+     }
+};
 ```
+Incoming WS messages are treated according to their message type.  
+
 ### Display for the performers
 The display for the performers is shown in fullscreenmode on any web-browser. CSS styling creates a floating and centered GUI that is adaptive to different display sizes and resolutions. Vector graphics were programmed using the Snap.svg library  making the display independent of resolution and generative.
 
@@ -59,7 +72,7 @@ The score displays the following sections for playing instructions (see Figure 1
 Each of the performers are addressed by a separate color.
 
 
-### Performance Situation in Donaueschingen
+### Performance Situation in Donaueschingen (2019)
 
 <p align="center">
   <img width="35%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg">
