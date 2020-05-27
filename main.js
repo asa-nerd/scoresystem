@@ -103,13 +103,17 @@ wss.on("connection", function connection(ws) {
   });
 });
 
+// ---------------------------------------------------------------------------
+// Create Window for the GUI
+// ---------------------------------------------------------------------------
+
 function createWindow() {
   rendererWin = new BrowserWindow({
     width: 640,
     height: 480,
     webPreferences: { nodeIntegration: true },
   }); // Erstelle das Browser-Fenster.
-  rendererWin.loadFile("render/index.html"); // und lade die index.html der App.
+  rendererWin.loadFile("render/index.html"); //Load index.html of the App.
 }
 app.on("ready", createWindow);
 
