@@ -1,5 +1,13 @@
-// ----------------------------------------------
+// -------------------------------------------------------------
+// Anna & Marie
+// Client App for Web-Browsers
+// V 0.9
+// -------------------------------------------------------------
+
+
+// -------------------------------------------------------------
 // functions triggered by OSC messages
+// -------------------------------------------------------------
 
 function writeText(tx){
 	textField.html(null);
@@ -165,7 +173,6 @@ function drawPitchsets(_pitchsetAnna, _pitchsetMarie){
 }
 
 function drawStaff(){
-	
 	var stavline1 = score.line(10, staveDistance*0, width-20, staveDistance*0);
 	var stavline2 = score.line(10, staveDistance*1, width-20, staveDistance*1);
 	var stavline3 = score.line(10, staveDistance*2, width-20, staveDistance*2);
