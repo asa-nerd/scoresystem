@@ -1,9 +1,11 @@
 
-// ----------------------------------------------
-// Set variables
+// -------------------------------------------------------------
+// Anna & Marie
+// Client App for Web-Browsers
+// V 0.9
+// -------------------------------------------------------------
 
-
-var canvas; 
+var canvas; 														// Set variables
 var wx;
 
 var staveDistance = 12;
@@ -31,18 +33,16 @@ var scoreHolder;
 var currentNote;
 
 
-// ----------------------------------------------
+// -------------------------------------------------------------
 // Setup
+// -------------------------------------------------------------
 
 function setup() {
 	canvas = createCanvas(1000,800);
 
-	// initiate socket.io
-	//socket = io();
 	var socket = new WebSocket('ws://'+location.host); // Open a websocket connection to the same URL as indicated in the browser 
-	
-	// connect functions to incoming OSC messages	
-	socket.onmessage = function(msg){
+		
+	socket.onmessage = function(msg){						// connect functions to incoming OSC messages
 		var messJSON = JSON.parse(msg.data);
 		switch(messJSON.message){
 			case "/text":
@@ -67,7 +67,7 @@ function setup() {
 				printScaleType(messJSON.parameter1);
 				break;
 			default:
-				//document.getElementById("cliendid").innerHTML = mess.data;
+				break;
 		}
 	};		
 
