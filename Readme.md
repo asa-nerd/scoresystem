@@ -5,9 +5,9 @@ This is the repository of the real-time score-system I developed for the composi
 The score system is a software to distribute and display pitchsets and notation symbols over network. Informations are displayer for performers on a tablet. <br>
 The work originates from the artistic research project [GAPPP](http://gappp.net/) (Gamified Audiovisual Performance and Performance Practice), carried out at the Institue of Electronic Music and Acoustics at the University of Music and Performing Arts in Graz.
 
-I published a paper about the technological background and some artistic implications for the [TENOR 2020 conference](https://tenor2020.hfmt-hamburg.de/) .\
+I published a paper about the technological background and some artistic implications for the [TENOR 2020 conference](https://tenor2020.hfmt-hamburg.de/) .\\
 
-\
+
 
 
 
