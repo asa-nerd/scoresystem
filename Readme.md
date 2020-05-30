@@ -10,7 +10,7 @@ I published a paper about the technological background and some artistic implica
 
 
 
-### Technology
+## Technology
 
 The following section text provides an overview of the functionality of the score system. For further details please consult the provided code itself.
 Based on previous experiences, due to the increasing role of JavaScript in network systems, and for greater flexibility, it was decided to develop the scoring system to run in web-browsers. The design of the system includes the following three modules.
@@ -28,7 +28,9 @@ Based on previous experiences, due to the increasing role of JavaScript in netwo
 **Display (3):** Any device that is capable of running a web browser can be used as a client. In the case of the performances of Anna & Marie, these were two iPads.
 
 
-### Desktop Host Application
+
+
+## Desktop Host Application
 The host is designed as an app that is available for Linux, iOS, and Windows operating systems. The Electron framework was used to develop the executable app and its GUI. It can be run either on the same computer (localhost) that runs the sound software or on an independent machine. The host application establishes an HTTP-server using the express17 package for node.js, allowing browsers to connect to the host and to receive the score templates. The goal was to makes it as convenient as possible to connect clients via network. 
 
 <p align="center">
@@ -40,7 +42,7 @@ The GUI of the host application allows the configuration of the port number, sho
 
 
 
-### Display for the performers
+## Display for the performers
 The display for the performers is shown in fullscreenmode on any web-browser. CSS styling creates a floating and centered GUI that is adaptive to different display sizes and resolutions. Vector graphics were programmed using the Snap.svg library  making the display independent of resolution and generative.
 
 ```javascript
@@ -76,7 +78,9 @@ The score displays the following sections for playing instructions (see Figure 1
 Each of the performers are addressed by a separate color.
 
 
-### Performance Situation in Donaueschingen (2019)
+
+
+## Performance Situation in Donaueschingen (2019)
 
 <p align="center">
   <img width="35%" src="https://github.com/asa-nerd/Anna-und-Marie/blob/master/documentation/01%20Live/DE-1.jpg">
