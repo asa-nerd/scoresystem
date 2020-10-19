@@ -3,10 +3,12 @@
 // Desktop GUI
 // V 0.9
 // -------------------------------------------------------------
-
-// -------------------------------------------------------------------------------------------------
-// GUI
-// -------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------
+// Anna & Marie
+// Server for Score System
+// to forward incoming OSC messages as websockets to webbrowsers
+// V 0.9
+// -------------------------------------------------------------
 
 const ipcRenderer = require("electron").ipcRenderer;
 let OSCmessages = [];
@@ -32,7 +34,7 @@ function functionCheckboxOn() {
 
 function functionCheckboxRecord() {
   var checkBox = document.getElementById("checkboxRecord");
-  if (checkBox.checked == true)                 // If the checkbox is checked
+  if (checkBox.checked == true) {                // If the checkbox is checked
     recordingMessages = true;                   // start recording incoming messages
     console.log("on");
   } else {
