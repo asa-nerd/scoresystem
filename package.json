@@ -9,7 +9,7 @@
   "author": "Andreas Pirchner",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.9"
+    "electron": "^18.3.7"
   },
   "dependencies": {
     "express": "^4.17.1",
